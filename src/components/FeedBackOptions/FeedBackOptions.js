@@ -11,7 +11,7 @@ function FeedBackOptions(props) {
           key={name}
           name={name}
           type="button"
-          onClick={onLeaveFeedback}
+          onClick={() => onLeaveFeedback(name)}
         >
           {name}
         </button>
